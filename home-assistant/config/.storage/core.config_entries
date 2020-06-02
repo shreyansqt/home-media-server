@@ -1,0 +1,49 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "index": 0,
+                    "name": "Home Assistant Bridge",
+                    "port": 51827
+                },
+                "domain": "homekit",
+                "entry_id": "7d0dd11dbe1649488ec84d1541dedfe9",
+                "options": {
+                    "auto_start": true,
+                    "entity_config": {},
+                    "filter": {
+                        "exclude_domains": [],
+                        "exclude_entities": [],
+                        "include_domains": [],
+                        "include_entities": [
+                            "light.living_room_ceiling",
+                            "switch.living_room_hanging_lamp",
+                            "switch.living_room_mood_lights",
+                            "switch.living_room_studio_main",
+                            "light.bedroom_ceiling",
+                            "light.bedroom_lamp",
+                            "light.kitchen_mood_lights",
+                            "scene.movie_time",
+                            "scene.movie_over",
+                            "scene.good_evening",
+                            "scene.good_night"
+                        ]
+                    },
+                    "safe_mode": false,
+                    "zeroconf_default_interface": false
+                },
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home Assistant Bridge:51827",
+                "unique_id": null,
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

@@ -1,0 +1,88 @@
+{
+    "data": {
+        "entities": [
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "scene.movie_time",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Movie Time",
+                "platform": "homeassistant",
+                "supported_features": 0,
+                "unique_id": "1590347629641",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "scene.movie_over",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Movie Over",
+                "platform": "homeassistant",
+                "supported_features": 0,
+                "unique_id": "1590347710491",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "scene.good_evening",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Good Evening",
+                "platform": "homeassistant",
+                "supported_features": 0,
+                "unique_id": "1590361213875",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "scene.good_night",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Good Night",
+                "platform": "homeassistant",
+                "supported_features": 0,
+                "unique_id": "1590361259619",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Updater",
+                "platform": "updater",
+                "supported_features": 0,
+                "unique_id": "updater",
+                "unit_of_measurement": null
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

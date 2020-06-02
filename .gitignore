@@ -1,3 +1,7 @@
 .DS_Store
 home-assistant/config/secrets.yaml
 home-assistant/config/known_devices.yaml
+home-assistant/config/home-assistant.log
+\home-assistant/config/home-assistant_v2.db
+home-assistant/config/home-assistant_v2.db-shm
+home-assistant/config/home-assistant_v2.db-wal
