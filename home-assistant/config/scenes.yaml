@@ -1,0 +1,57 @@
+- id: '1590347629641'
+  name: Movie Time
+  entities:
+    light.kitchen_mood_lights:
+      friendly_name: Kitchen Mood Lights
+      state: 'on'
+      supported_features: 40
+    light.living_room_ceiling:
+      friendly_name: Living Room Ceiling
+      state: 'off'
+      supported_features: 41
+    switch.living_room_hanging_lamp:
+      friendly_name: Living Room Hanging Lamp
+      state: 'off'
+    switch.living_room_mood_lights:
+      friendly_name: Living Room Mood Lights
+      state: 'on'
+- id: '1590347710491'
+  name: Movie Over
+  entities:
+    light.kitchen_mood_lights:
+      friendly_name: Kitchen Mood Lights
+      state: 'off'
+      supported_features: 40
+    light.living_room_ceiling:
+      brightness: 255
+      friendly_name: Living Room Ceiling
+      state: 'on'
+      supported_features: 41
+    switch.living_room_hanging_lamp:
+      friendly_name: Living Room Hanging Lamp
+      state: 'off'
+    switch.living_room_mood_lights:
+      friendly_name: Living Room Mood Lights
+      state: 'off'
+- id: '1590361213875'
+  name: Good Evening
+  entities:
+    light.bedroom_ceiling:
+      friendly_name: Bedroom Ceiling
+      state: 'off'
+      supported_features: 41
+    light.bedroom_lamp:
+      friendly_name: Bedroom Lamp
+      state: 'on'
+      supported_features: 40
+- id: '1590361259619'
+  name: Good Night
+  entities:
+    light.bedroom_ceiling:
+      friendly_name: Bedroom Ceiling
+      state: 'off'
+      supported_features: 41
+    light.bedroom_lamp:
+      friendly_name: Bedroom Lamp
+      state: 'off'
+      supported_features: 40
