@@ -1,3 +1,3 @@
 .DS_Store
-home-assistant/secrets.yaml
-home-assistant/known_devices.yaml
+home-assistant/config/secrets.yaml
+home-assistant/config/known_devices.yaml
