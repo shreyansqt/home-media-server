@@ -4,7 +4,7 @@ services:
     container_name: home-assistant
     image: homeassistant/home-assistant:stable
     volumes:
-      - /home/pi/home-media-server/home-assistant/configs:/config
+      - /home/pi/home-media-server/home-assistant/config:/config
     environment:
       - TZ=Europe/Berlin
     restart: always
