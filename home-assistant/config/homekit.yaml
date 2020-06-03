@@ -1,13 +1,9 @@
 filter:
   include_entities:
     - light.living_room_ceiling
-    - switch.living_room_hanging_lamp
+    - light.living_room_hanging_lamp
     - switch.living_room_mood_lights
     - switch.living_room_studio_main
     - light.bedroom_ceiling
     - light.bedroom_lamp
     - light.kitchen_mood_lights
-    - scene.movie_time
-    - scene.movie_over
-    - scene.good_evening
-    - scene.good_night
