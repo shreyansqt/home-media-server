@@ -23,7 +23,8 @@
                             "switch.living_room_studio_main",
                             "light.bedroom_ceiling",
                             "light.bedroom_lamp",
-                            "light.kitchen_mood_lights"
+                            "light.kitchen_mood_lights",
+                            "switch.vocolinc_vp2_0edaf5_4"
                         ]
                     },
                     "safe_mode": false,
