@@ -13,9 +13,6 @@ scene: !include scenes.yaml
 light: !include lights.yaml
 homekit: !include homekit.yaml
 
-http:
-  server_port: 8124
-
 discovery:
   ignore:
     - yeelight
