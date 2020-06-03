@@ -4,7 +4,6 @@
             {
                 "connection_class": "local_push",
                 "data": {
-                    "index": 0,
                     "name": "Home Assistant Bridge",
                     "port": 51827
                 },
@@ -19,16 +18,12 @@
                         "include_domains": [],
                         "include_entities": [
                             "light.living_room_ceiling",
-                            "switch.living_room_hanging_lamp",
+                            "light.living_room_hanging_lamp",
                             "switch.living_room_mood_lights",
                             "switch.living_room_studio_main",
                             "light.bedroom_ceiling",
                             "light.bedroom_lamp",
-                            "light.kitchen_mood_lights",
-                            "scene.movie_time",
-                            "scene.movie_over",
-                            "scene.good_evening",
-                            "scene.good_night"
+                            "light.kitchen_mood_lights"
                         ]
                     },
                     "safe_mode": false,
@@ -40,6 +35,121 @@
                 },
                 "title": "Home Assistant Bridge:51827",
                 "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "2e08f447e75e492eaf4af9533e5a8e26",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "allow_hue_groups": false,
+                    "host": "192.168.68.119",
+                    "username": "r59SWLxteWfDpZySIerAsDZzJFv2GX8yMPB4UYvq"
+                },
+                "domain": "hue",
+                "entry_id": "4b135ad71b4f44929e11770b64400f9a",
+                "options": {},
+                "source": "homekit",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Philips hue",
+                "unique_id": "44fc46465c02",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "sonos",
+                "entry_id": "8d7bf3d3eee94893ae2bca68ef043e66",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Sonos",
+                "unique_id": "sonos",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "user_id": "793ca420770a47d2a70fc05728b19f9d"
+                },
+                "domain": "cast",
+                "entry_id": "f78e0c95ade442259103dcd43cedec12",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Google Cast",
+                "unique_id": "cast",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {},
+                "domain": "upnp",
+                "entry_id": "e9d4b7655f4c47b2a75024c93c68eb4c",
+                "options": {},
+                "source": "ignore",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Ignored",
+                "unique_id": "uuid:e4c797e0-82ce-4f84-b56d-085d9d77c8cd::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {},
+                "domain": "tplink",
+                "entry_id": "d7723ae464874236a0654837bfac9bc2",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "TP-Link Smart Home",
+                "unique_id": "tplink",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "AccessoryIP": "192.168.68.100",
+                    "AccessoryLTPK": "8a477895871ca829a9f538eb9b300c252321fa5ff5076bd475e8db9b01c675f9",
+                    "AccessoryPairingID": "0D:75:90:BC:90:EA",
+                    "AccessoryPort": 8080,
+                    "Connection": "IP",
+                    "iOSDeviceLTPK": "9d0ccd808c9ade895c096c6ee3538ac376470e5843d60793789988061a074a8a",
+                    "iOSDeviceLTSK": "e990af5f9912e68397bccb900b9119549662233ccce60ada2c4c6680823afa2a",
+                    "iOSPairingId": "e834c6fa-c304-44b4-a9b7-923d888f7750"
+                },
+                "domain": "homekit_controller",
+                "entry_id": "0a14dc3a34c14b31b0773f1567b01131",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "VOCOlinc-VP2-0edaf5",
+                "unique_id": "0d:75:90:bc:90:ea",
                 "version": 1
             }
         ]
