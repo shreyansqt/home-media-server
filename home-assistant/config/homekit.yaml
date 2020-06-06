@@ -8,3 +8,4 @@ filter:
     - light.bedroom_lamp
     - light.kitchen_mood_lights
     - switch.vocolinc_vp2_0edaf5_2
+    - sensor.mi_t_a4c1385cdcc7
