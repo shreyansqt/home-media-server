@@ -23,11 +23,5 @@ yeelight:
 
 sensor:
   - platform: mitemp_bt
-    name: Living Room Temperature Sensor
-    mac: 'A4:C1:38:5C:DC:C7'
-    monitored_conditions:
-      - temperature
-      - humidity
-      - battery
     encryptors:
       'A4:C1:38:5C:DC:C7': '14900CFF67B9D41E7AC158C09078B877'
