@@ -24,7 +24,7 @@
                             "light.bedroom_ceiling",
                             "light.bedroom_lamp",
                             "light.kitchen_mood_lights",
-                            "switch.vocolinc_vp2_0edaf5_4"
+                            "switch.vocolinc_vp2_0edaf5_2"
                         ]
                     },
                     "safe_mode": false,
@@ -151,6 +151,38 @@
                 },
                 "title": "VOCOlinc-VP2-0edaf5",
                 "unique_id": "0d:75:90:bc:90:ea",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "fgCIa4SxYhM:APA91bEcOwKmago91YsiqRvoIHarHg3uGfAYp7kEV36kM7AeTcMyDE5D0sTqhrVW5pPhmOa9nMhaiPQCR5f0twjSifxOWw6FXfav2Hi6wrI5wZdOGDfMWE0jMwLU6V1CxsK9bMqPWpiH",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "72420e4f407f427381a19813bdcff3ec",
+                    "device_name": "Shreyans\u2019s iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone Xs",
+                    "os_name": "iOS",
+                    "os_version": "13.5",
+                    "secret": "b100172f83ce6081a470e7f6048f460bfc84470257950b3efbf52d4069a97ede",
+                    "supports_encryption": true,
+                    "user_id": "86ee01cf6aab4ef2bbb91ea7c52d42ed",
+                    "webhook_id": "bab2e2e1eb3913f41c827962befb56782774ef038e9661b28fb37f367594b999"
+                },
+                "domain": "mobile_app",
+                "entry_id": "2ebd5cac5c014e6db831157710f9dd3a",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Shreyans\u2019s iPhone",
+                "unique_id": null,
                 "version": 1
             }
         ]
