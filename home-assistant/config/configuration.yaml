@@ -20,3 +20,12 @@ yeelight:
   devices:
     192.168.68.117:
       name: Living Room Hanging Lamp
+
+sensor:
+  - platform: mitemp_bt
+    name: Living Room Temperature Sensor
+    mac: 'A4:C1:38:5C:DC:C7'
+    monitored_conditions:
+      - temperature
+      - humidity
+      - battery
