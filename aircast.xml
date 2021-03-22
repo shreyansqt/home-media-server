@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<aircast>
+<common>
+<enabled>1</enabled>
+<stop_receiver>0</stop_receiver>
+<media_volume>1.0000</media_volume>
+<latency></latency>
+<codec>flac</codec>
+<artwork></artwork>
+<drift>0</drift>
+<metadata>1</metadata>
+</common>
+<main_log>info</main_log>
+<cast_log>info</cast_log>
+<util_log>warn</util_log>
+<log_limit>-1</log_limit>
+<max_players>32</max_players>
+<ports>0:0</ports>
+<binding>?</binding>
+<device>
+<udn>5c35981e7714f039b187836c4421c576</udn>
+<name>Living Room Speaker+</name>
+<mac>cc:cc:42:13:2d:44</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>372C9338-40F8-4E6C-922E-F7E55AF741B0</udn>
+<name>All speakers+</name>
+<mac>cc:cc:a6:4d:2e:76</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>201446bf264fd60070890d9bde7389ef</udn>
+<name>Bedroom Speaker+</name>
+<mac>cc:cc:43:8e:f2:b7</mac>
+<enabled>1</enabled>
+</device>
+</aircast>

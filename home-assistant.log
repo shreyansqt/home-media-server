@@ -1,0 +1,12 @@
+2021-03-22 17:33:44 ERROR (Recorder) [homeassistant.components.recorder.util] The database at //config/home-assistant_v2.db is corrupt or malformed.
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/recorder/util.py", line 168, in validate_sqlite_database
+    run_checks_on_open_db(dbpath, conn.cursor(), db_integrity_check)
+  File "/usr/src/homeassistant/homeassistant/components/recorder/util.py", line 179, in run_checks_on_open_db
+    sanity_check_passed = basic_sanity_check(cursor)
+  File "/usr/src/homeassistant/homeassistant/components/recorder/util.py", line 157, in basic_sanity_check
+    cursor.execute(f"SELECT * FROM {table} LIMIT 1;")  # nosec # not injection
+sqlite3.OperationalError: no such table: states
+2021-03-22 17:33:44 ERROR (Recorder) [homeassistant.components.recorder.util] The system will rename the corrupt database file //config/home-assistant_v2.db to //config/home-assistant_v2.db.corrupt.2021-03-22T12:03:44.355236+00:00 in order to allow startup to proceed
+2021-03-22 17:33:50 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 2405:201:4003:112b:449c:67cf:dc28:6514 (2405:201:4003:112b:449c:67cf:dc28:6514). (Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36)
+2021-03-22 17:33:51 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from supervisor (172.30.32.2). (Python/3.8 aiohttp/3.7.4.post0)
